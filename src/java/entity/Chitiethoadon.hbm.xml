@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 16, 2016 11:58:41 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entity.Chitiethoadon" table="chitiethoadon" schema="dbo" catalog="tocoffee" optimistic-lock="version">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="hoadon" class="entity.Hoadon" fetch="select">
+            <column name="mahoadon" not-null="true" />
+        </many-to-one>
+        <many-to-one name="sanpham" class="entity.Sanpham" fetch="select">
+            <column name="masanpham" not-null="true" />
+        </many-to-one>
+        <property name="soluong" type="int">
+            <column name="soluong" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

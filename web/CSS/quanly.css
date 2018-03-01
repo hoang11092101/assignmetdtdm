@@ -1,0 +1,230 @@
+#wrapper{
+    background-color:#903;
+}
+
+#header{
+    width: 1280px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#content{
+    width: 900px;
+    margin: 0 auto;
+    background-image: url("../images/nentrong.png");
+}
+
+
+
+.menu{
+	width:665px;
+	height:42px;
+	float:left;
+	}
+
+
+.logo{
+	width:105px;
+	height:100px;
+	float:left;
+	margin-left:255px;
+	}
+        
+.sologan{
+	width:665px;
+	height:58px;
+	float:left;
+	font-size:36px;
+	color:#FFF;
+	font-family:"Courier New", Courier, monospace;
+	font-weight:bolder;
+	
+	}
+        
+.chusologan{margin-top:10px;text-align:center;}
+
+
+nav {
+    
+    text-align: center;
+    font-family: Raleway;
+    font-weight:bold;
+   margin-top: 9px;
+    width:665px;
+    height:42px;
+    float:left;
+}
+
+#nav-3 {
+  width:665px;
+    height:42px;
+        
+}
+
+.link-3 {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 14px;
+  text-shadow: 0px 0px 0.5px #ffffff;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.link-3:hover {
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 15px 10px;
+}
+
+.link-1 {
+  color: #ffffff;
+  font-size: 14px;
+  text-shadow: 0px 0px 0.5px #ffffff;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 15px 10px;
+}
+.search{
+    width: 375px;
+    height: 50px;
+    float: left;
+}
+
+.txttk{
+    font-size: 24px;
+    margin-left:  185px;
+    width: 120px;
+    float:left;
+    padding-top: 10px;
+}
+
+.tk{
+    width: 1280px;
+    height: 50px;
+    
+}
+
+.dssp{
+    width: 1280px;
+}
+
+.showsp{
+ width: 260px;
+ height: 330px;
+ float: left;
+ margin-left: 30px;
+ margin-top: 20px;
+ background-color: #903;
+}
+
+.hinhsp{
+    width: 240px;
+    height: 130px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: brown;
+}
+
+.tensp{
+    width: 240px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: chartreuse;
+    font-weight: bold;
+}
+
+.motasp{
+    width: 240px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #FF0;
+}
+
+.giasp{
+    width: 240px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: greenyellow;
+}
+.soluongsp{
+    width: 160px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    margin-top:5px;
+    color: deepskyblue;
+}
+.txtsl{
+    float: left;
+    font-size: 20px;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+.soluongsp1{
+    width: 50px;
+    height: 25px;
+    float: left;
+    font-size: 14px;
+}
+
+.txtsl{
+    float: left;
+    font-size: 20px;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+
+.nut{
+    width: 240px;
+    height: 30px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.nutxoa{
+    height: 30px;
+    width: 80px;
+}
+
+.nutsua{
+    margin-left: 75px;
+    height: 30px;
+    width: 80px;
+}
+
+.nutthem{
+    margin-left: 75px;
+    height: 30px;
+    width: 80px;
+}
+
+#txtQuanlyuser{
+    color: wheat;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    width: 900px;
+    height: 30px;
+}
+
+#tbQuanlyuser{
+    margin-left: 250px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 16, 2016 11:58:41 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entity.Taikhoan" table="taikhoan" schema="dbo" catalog="tocoffee" optimistic-lock="version">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="sdt" type="string">
+            <column name="sdt" length="15" not-null="true" />
+        </property>
+        <property name="matkhau" type="string">
+            <column name="matkhau" length="100" not-null="true" />
+        </property>
+        <property name="ten" type="string">
+            <column name="ten" not-null="true" />
+        </property>
+        <property name="diachi" type="string">
+            <column name="diachi" not-null="true" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="100" not-null="true" unique="true" />
+        </property>
+        <property name="ngaytao" type="timestamp">
+            <column name="ngaytao" length="16" />
+        </property>
+        <property name="loaitk" type="string">
+            <column name="loaitk" length="10" not-null="true" />
+        </property>
+        <property name="hinhanh" type="string">
+            <column name="hinhanh" length="100" />
+        </property>
+        <set name="hoadons" table="hoadon" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="mauser" not-null="true" />
+            </key>
+            <one-to-many class="entity.Hoadon" />
+        </set>
+    </class>
+</hibernate-mapping>

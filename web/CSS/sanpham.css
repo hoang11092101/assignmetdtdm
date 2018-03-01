@@ -1,0 +1,292 @@
+#wrapper{
+    background-color:#903;
+}
+
+#header{
+    width: 1280px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#content{
+    width: 900px;
+    margin: 0 auto;
+    background-image: url("../images/cf.jpg");
+}
+
+#footer{
+    float: left;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.menu{
+	width:665px;
+	height:42px;
+	float:left;
+	}
+
+
+.logo{
+	width:105px;
+	height:100px;
+	float:left;
+	margin-left:255px;
+	}
+        
+.sologan{
+	width:665px;
+	height:58px;
+	float:left;
+	font-size:36px;
+	color:#FFF;
+	font-family:"Courier New", Courier, monospace;
+	font-weight:bolder;
+	
+	}
+        
+.chusologan{margin-top:10px;text-align:center;}
+
+
+nav {
+    
+    text-align: center;
+    font-family: Raleway;
+    font-weight:bold;
+   margin-top: 9px;
+    width:665px;
+    height:42px;
+    float:left;
+}
+
+#nav-3 {
+  width:665px;
+    height:42px;
+        
+}
+
+.link-3 {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 14px;
+  text-shadow: 0px 0px 0.5px #ffffff;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.link-3:hover {
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 15px 10px;
+}
+
+.link-1 {
+  color: #ffffff;
+  font-size: 14px;
+  text-shadow: 0px 0px 0.5px #ffffff;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 15px 10px;
+}
+.search{
+    width: 375px;
+    height: 50px;
+    float: left;
+}
+
+.txttk{
+    font-size: 24px;
+    margin-left:  185px;
+    width: 120px;
+    float:left;
+    padding-top: 10px;
+}
+
+.tk{
+    width: 1280px;
+    height: 50px;
+    
+}
+
+.dssp{
+    width: 900px;
+    background-image: url("../images/cf.jpg");
+}
+
+.showsp{
+
+    background-image: url("../images/nen.png");
+ width: 260px;
+ height: 330px;
+ float: left;
+ margin-left: 30px;
+ margin-top: 20px;
+  
+}
+
+.hinhsp{
+    width: 240px;
+    height: 130px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: brown;
+}
+
+.tensp{
+    width: 240px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: chartreuse;
+    font-weight: bold;
+}
+
+.motasp{
+    width: 240px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #FF0;
+}
+
+.giasp{
+    width: 240px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: greenyellow;
+}
+.soluongsp{
+    width: 160px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    margin-top:5px;
+    color: deepskyblue;
+}
+.txtsl{
+    float: left;
+    font-size: 20px;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+.soluongsp1{
+    width: 50px;
+    height: 25px;
+    float: left;
+    font-size: 14px;
+}
+.nut{
+    width: 60px;
+    height: 30px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.nutthem{
+    height: 30px;
+    width: 60px;
+}
+
+.chuyentrang{
+    width: 900px;
+    height: 50px;
+    background-image: url("../images/nen.png");
+}
+#pagination-flickr{
+    border:0;
+    padding:0;
+    margin-left: 40px;
+}
+ 
+#pagination-flickr li{
+border:0; margin:0; padding:0;
+font-size:18px;
+list-style:none;
+}
+ 
+#pagination-flickr a{
+border:solid 1px #DDDDDD;
+margin-right:2px;
+}
+ 
+#pagination-flickr .previous-off,
+#pagination-flickr .next-off{
+color: #000033;
+display:block;
+float:left;
+font-weight:bold;
+padding:3px 4px;
+}
+
+
+#pagination-flickr .next a,
+#pagination-flickr .previous a{
+font-weight:bold;
+border:solid 1px #FFFFFF;
+}
+ 
+#pagination-flickr .active{
+color:#ff0084;
+font-weight:bold;
+display:block;
+float:left;
+padding:4px 6px;
+}
+ 
+#pagination-flickr a:link,
+#pagination-flickr a:visited{
+color: chartreuse;
+display:block;
+float:left;
+padding:3px 6px;
+text-decoration:none;
+}
+ 
+#pagination-flickr a:hover{
+border:solid 1px #666666;
+}
+
+
+
+.nutthem{
+        display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: 2px 2px 2px 2px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.nutthem:hover {
+	text-decoration: none;
+        background: #d57ea5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f4aacb), to(#e86ca4));
+	background: -moz-linear-gradient(top,  #f4aacb,  #e86ca4);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4aacb', endColorstr='#e86ca4');
+}
+
+
+.nutthem:active {
+	position: relative;
+	top: 1px;
+}
